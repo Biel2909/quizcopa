@@ -1,0 +1,48 @@
+<html>
+<head>
+
+<meta charset="urf 8">
+<link rel="stylesheet" href="I.css">
+<title>perguntas</title>
+</head>
+
+<body>
+
+<button id="botao" onclick="Ipagina()">Voltar</button>
+<button id="botao2" onclick="IIpagina()">Próxima Pergunta</button>
+
+<div id="marge">
+
+<p>1° pergunta</p>
+<p>Quantas copas tem o Brasil?</p>
+
+<form action="IIpagina.html" method="post">
+  <fieldset>
+   
+   <button onclick="alert('Resposta: ERRADA')" >(A)</button>  6 </label>
+  </fieldset>
+  <fieldset>
+   
+   <button onclick="alert('Resposta: ERRADA')" >(B)</button>  3</label>
+  </fieldset>
+  <fieldset>
+  
+   <button onclick="alert('Resposta: CERTA 10 pontos')">(C)</button>  5</label>
+  </fieldset>
+  
+   <fieldset>
+  <button onclick="alert('Resposta: ERRADA')">(D)</button >  0 </label>
+  </fieldset>
+</form> 
+
+
+</div>
+
+</body>
+
+
+
+<script src="I.js"></script>
+</html>
+
+ 

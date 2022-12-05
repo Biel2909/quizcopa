@@ -1,0 +1,48 @@
+<html>
+
+
+<head>
+<link rel="stylesheet" href="II.css">
+</head>
+
+
+<body>
+
+<button id="botao" onclick="IIvoltar()" >Pergunta Anterior</button>
+<button id="botao2" onclick="IVpagina()" >Próxima Pergunta</button>
+
+<div id="marge">
+
+<p>3° pergunta</p>
+<p>Qual seleção ganhou a primeira Copa do Mundo</p>
+
+
+<form action="IVpagina.html" method="post">
+  <fieldset>
+   
+      
+    <button onclick="alert('Resposta: ERRADA')" >(A)</button> Japão </label>
+  </fieldset>
+  <fieldset>
+   
+    <button onclick="alert('Resposta:  CERTA + 10´pontos')" >(B)</button> Uruguai </label id="A">
+  </fieldset>
+  <fieldset>
+  
+    <button onclick="alert('Resposta: ERRADA')" >(C)</button>   Equador</label>
+  </fieldset>
+  
+   <fieldset>
+       <button onclick="alert('Resposta: ERRADA')" >(D)</button>  Espanha</label>
+  </fieldset>
+
+
+
+</div>
+
+</body>
+
+
+
+<script src="I.js"></script>
+</html>

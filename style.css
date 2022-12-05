@@ -1,0 +1,60 @@
+body{
+	background-image: url(fundo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+
+	
+	font: 12px verdana, sans-serif;
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	}
+    #menu{
+	list-style: none;	
+	padding: 2;	
+	background-color: #c90a00;
+	display: inl;	
+	color: #FFF;	
+    padding: 30px;
+
+	}
+	#menu li{	
+	font: 30px verdana, sans-serif;
+	text-align: center;	
+	}
+    #perguntas	{
+	text-align: center;		
+	font: 20px verdana, sans-serif;
+	margin: 100px;
+	position: relative;
+	bottom: 40px;
+	color: #FFF;
+	}
+	#margem{
+	text-align: center;	
+	border: 3px solid #FFF;
+	height: 300px;
+	width:  370px;
+	background-color: #FFF;
+	margin: auto;
+	position: relative;
+	bottom: 10%;
+	border-radius: 20px;
+	}
+	#20{
+	height: 50px;
+	}
+	#botao {
+	background-color: #c90a00;
+	cursor: pointer;
+	color: #FFF;
+	width: 50%;
+	padding: 10px;
+	border-radius: 20px;
+	transition: 1s;
+	}
+	#botao: hover{
+	color: #FFF;
+	
+	

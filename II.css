@@ -1,0 +1,45 @@
+body{
+	background-color: #bdebca;  
+	}
+	#marge{
+	text-align: center;	
+	border: 3px solid #FFF;
+	height: 300px;
+	width:  370px;
+	background-color: #FFF;
+	margin: auto;
+	position: relative;
+	top: 10%;
+	border-radius: 20px;
+	padding: 20px;
+	}
+	#resposta{
+	background-color: #1b8798;
+	cursor: pointer;
+	color: #FFF;
+	border-radius: 20px;
+	position: relative;
+	top: 10px;
+	}
+	#botao2 {
+	position: relative;
+	left: 80%;
+	}
+	#A {
+	position: relative;
+	left: 15px;
+	}
+	#resultados{
+	list-style: none;	
+	justify-content: 40px;	
+	text-align: center;	
+	border: 3px solid #FFF;
+	height: 700px;
+	width:  570px;
+	background-color: #FFF;
+	margin: auto;
+	position: relative;
+	top: 10%;
+	border-radius: 20px;
+	padding: 20px;
+	}
